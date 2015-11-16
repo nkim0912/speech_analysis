@@ -39,29 +39,21 @@ Please fork and do a pull request when you've created a feature that you want to
 - [x] Project Management Plan - Due: Nov 10
 - [x] Initial Requirements Document - Due: Nov 12
 - [x] Gantt Chart - Due: Nov 12
-- [] Initial prototype - Due: Nov 17
+- [x] Initial prototype - Due: Nov 17
 - [] Prototype 2 - Due: Nov 24
 - [] Prototype 3 - Due: Dec 1
 - [] Final Presentation - Due: Dec 8-10
 
 #### For assignment:
-- [] Ensure instructions for coding side are up-to-date - XX
 - [] Get UNM logo
 - [] Supplement Replace Speech App in upper left corner with UNM logo
-- [] Create interface for inputting Phoneme Data - XX
 - [] Ensure Speaker is associated with a user
-- [] Ensure input file is being displayed properly - XX
-- [] Grab Phoneme image and display - XX
-- [] Display table for phoneme translations - XX
-- [] Create instructions
+- [] Create instructions for the students
 - [] Spec tests for ruby code
 - [] Spec tests for Javascript code
 - [] Implement concept of administrative account
-- [] Ensure aesthetics of page are good - XX
-- [] Determine way to create new options to add to drop down boxes (ex. state, country, etc.) - XX
 - [] Remove unnecessary components to project
 - [] Ensure no TODO's remain in code comments
-- [] Bug search - XX
 - [] Steal UNM favicon
 - [] Create nice page for login/signup - see https://stark-woodland-7238.herokuapp.com/ for contextual example
 
@@ -78,16 +70,30 @@ Please fork and do a pull request when you've created a feature that you want to
 - [] Get queries from client
 - [] Implement logic to separate views for different users
 - [] Push product to Heroku
+- [] Determine way to create new options to add to drop down boxes (ex. state, country, etc.)
+- [x] Ensure instructions for coding side are up-to-date
 
 #### Amber:
+- [] Create interface for inputting Phoneme Data - Due Nov 20 - 21st at the latest
+- [] Ensure input file is being displayed properly - Due Nov 20 - 21st at the latest
+- [] Grab Phoneme image and display - Due Nov 20 - 21st at the latest
+- [] Display table for phoneme translations - Due Nov 20 - 21st at the latest
 
 #### Jeffrey:
+- [] Create interface for inputting Phoneme Data - Due Nov 20 - 21st at the latest
+- [] Ensure input file is being displayed properly - Due Nov 20 - 21st at the latest
+- [] Grab Phoneme image and display - Due Nov 20 - 21st at the latest
+- [] Display table for phoneme translations - Due Nov 20 - 21st at the latest
 
 #### Harish:
+- [] Determine way to create new options to add to drop down boxes (ex. state, country, etc.)
 
 #### Nicole:
+- [] Determine way to create new options to add to drop down boxes (ex. state, country, etc.)
+- [] Ensure aesthetics of page are good
 
 #### Meghana:
+- [] Bug search
 
 #### Future Work (May not be encompassed in assignment):
 - [] Ensure only users that client allows can sign up for speech app
