@@ -41,7 +41,7 @@ build/
 *.keep
 
 # Do not include bin files
-bin/*
+#bin/*
 
 capybara-*.html
 .rspec
@@ -53,8 +53,8 @@ capybara-*.html
 **.orig
 pickle-email-*.html
 
-config/initializers/secret_token.rb
-config/secrets.yml
+#config/initializers/secret_token.rb
+#config/secrets.yml
 
 /.bundle
 /vendor/bundle
