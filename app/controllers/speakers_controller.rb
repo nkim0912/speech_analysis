@@ -28,11 +28,9 @@ class SpeakersController < ApplicationController
 
     respond_to do |format|
       if @speaker.save
-        flash[:success] = 'Speaker was successfully created.'
-        format.html { redirect_to @speaker }
+        format.html { redirect_to @speaker, notice: 'Speaker was successfully created.' }
         format.json { render :show, status: :created, location: @speaker }
       else
-        flash[:danger] = 'There was a problem creating the Speaker.'
         format.html { render :new }
         format.json { render json: @speaker.errors, status: :unprocessable_entity }
       end
@@ -44,11 +42,9 @@ class SpeakersController < ApplicationController
   def update
     respond_to do |format|
       if @speaker.update(speaker_params)
-        flash[:success] = 'Speaker was successfully updated.'
-        format.html { redirect_to @speaker }
+        format.html { redirect_to @speaker, notice: 'Speaker was successfully updated.' }
         format.json { render :show, status: :ok, location: @speaker }
       else
-        flash[:danger] = 'There was a problem updating the Speaker.'
         format.html { render :edit }
         format.json { render json: @speaker.errors, status: :unprocessable_entity }
       end
@@ -60,8 +56,7 @@ class SpeakersController < ApplicationController
   def destroy
     @speaker.destroy
     respond_to do |format|
-      flash[:success] = 'Speaker was successfully destroyed.'
-      format.html { redirect_to speakers_url }
+      format.html { redirect_to speakers_url, notice: 'Speaker was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
